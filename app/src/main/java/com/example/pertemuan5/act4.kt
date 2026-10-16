@@ -30,5 +30,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun FormDataDiri(modifier: Modifier){
+    //variable-variable untuk mengingat nilai masukan dari keybord
+    var textNama by remember{ mutableStateOf("") }
 
 }
